@@ -12,12 +12,31 @@
     <script type="module" src="script.js"></script>
   </head>
   <body>
-    <nav>
-      <a href="/" aria-current="page">Home</a>
-      <a href="/page2.html">Other page</a>
-    </nav>
-    <main>
-      <h1>Home page</h1>
+    <header>
+      <nav class="navBar">
+        <ul class="navUl">
+          <li>Hjem</li>
+          <li>Om meg</li>
+          <li>Prosjekter</li>
+          <li>Kontakt</li>
+        </ul>
+      </nav>
+    </header>
+
+    <main class="main">
+      <section>
+        <h1>Velkommen!</h1>
+        <p class="green">Mitt navn er <span class="name">Julie</span></p>
+        <p class="blue">Og jeg lærer webutvikling</p>
+        <p>På Kodeloftet</p>
+      </section>
     </main>
+
+    <footer>
+      <p>Laget av Julie</p>
+      <a href="https://github.com/juliekodehode" target="_blank"> 
+        <img class="githubIkon" src="github.png" alt="Github icon"> 
+      </a>
+    </footer>
   </body>
 </html>
